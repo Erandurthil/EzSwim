@@ -23,19 +23,19 @@
   <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
   <ItemGroup>
     <Folder Include="ModelDefinition\" />
-    <Content Include="Architektur.componentdiagram">
+    <Content Include="EzSwimUML.componentdiagram">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Architektur.componentdiagram.layout">
+    <Content Include="EzSwimUML.componentdiagram.layout">
       <SubType>Content</SubType>
-      <DependentUpon>Architektur.componentdiagram</DependentUpon>
+      <DependentUpon>EzSwimUML.componentdiagram</DependentUpon>
     </Content>
-    <Content Include="DBS2UML.usecasediagram">
+    <Content Include="EzSwimUML.usecasediagram">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="DBS2UML.usecasediagram.layout">
+    <Content Include="EzSwimUML.usecasediagram.layout">
       <SubType>Content</SubType>
-      <DependentUpon>DBS2UML.usecasediagram</DependentUpon>
+      <DependentUpon>EzSwimUML.usecasediagram</DependentUpon>
     </Content>
     <Content Include="ModelDefinition\EzSwim UML.uml">
       <SubType>Content</SubType>
