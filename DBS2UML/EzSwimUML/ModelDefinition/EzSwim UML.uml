@@ -35,6 +35,16 @@
         name="Assistent"
         isAbstract="false"
         isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="cac7b322-e85c-456d-9a8c-982185e9f967"
+            isSubstitutable="false">
+            <actorMoniker
+              Id="5e620bb4-9b19-4238-badf-dd555d6bcbbe"
+              LastKnownName="Benutzer"
+              LastKnownLocation="EzSwim UML.uml" />
+          </generalization>
+        </generalsInternal>
         <targetEnds>
           <association
             Id="37981741-91ad-4ec8-b444-d51fc883992f"
@@ -426,6 +436,84 @@
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
           </association>
+          <association
+            Id="a9efbf37-38d0-45c2-85e4-20404db0096f"
+            isDerived="false"
+            sourceEndRoleName="Assistent"
+            targetEndRoleName="Gruppen/Riegen einsehen"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c1c5782c-601b-4521-9eee-d476c0c97992"
+              LastKnownName="Gruppen/Riegen einsehen"
+              LastKnownLocation="EzSwim UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3b45dc45-2258-41c4-8e5a-c0927f283bcb"
+                  name="Assistent"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c2b6a764-de18-402e-b07d-dc814e047252"
+                  name="Gruppen/Riegen einsehen"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="21562b8b-b826-448e-8e2d-2f4435db5126"
+            isDerived="false"
+            sourceEndRoleName="Assistent"
+            targetEndRoleName="Trainingseinheiten erstellen"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="12791c66-9f39-4fe6-b943-54d8997143f3"
+              LastKnownName="Trainingseinheiten pflegen"
+              LastKnownLocation="EzSwim UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d1f830ab-c302-4815-aced-999f25f05d75"
+                  name="Assistent"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f6744dd4-9477-4f70-bd26-7bf84bb827ca"
+                  name="Trainingseinheiten erstellen"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
         </targetEnds>
       </actor>
     </packageHasNamedElement>
@@ -435,6 +523,16 @@
         name="Ausbildungsleitung / Adminstrator"
         isAbstract="false"
         isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="1e5cb15e-d3e0-4242-b8e7-65310bf22041"
+            isSubstitutable="false">
+            <actorMoniker
+              Id="5e620bb4-9b19-4238-badf-dd555d6bcbbe"
+              LastKnownName="Benutzer"
+              LastKnownLocation="EzSwim UML.uml" />
+          </generalization>
+        </generalsInternal>
         <targetEnds>
           <association
             Id="978d888f-7b6a-4284-bb3b-595111ab7f35"
@@ -748,6 +846,84 @@
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
           </association>
+          <association
+            Id="773029fa-14c2-447a-a280-a69398682883"
+            isDerived="false"
+            sourceEndRoleName="Ausbildungsleitung / Adminstrator"
+            targetEndRoleName="Orte pflegen"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="836b2871-f7b2-4e8d-8e06-d9971a24c3e5"
+              LastKnownName="Orte pflegen"
+              LastKnownLocation="EzSwim UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="671b2ebf-9968-48d1-b150-1c8daf2d485a"
+                  name="Ausbildungsleitung / Adminstrator"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2eb6580c-c89d-445e-856c-2489de579a59"
+                  name="Orte pflegen"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="5724f625-82c2-4806-95e8-5b7de05de609"
+            isDerived="false"
+            sourceEndRoleName="Ausbildungsleitung / Adminstrator"
+            targetEndRoleName="Materialdaten pflegen"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="57dcf274-ad99-43de-85bd-732c88f52cd0"
+              LastKnownName="Materialdaten pflegen"
+              LastKnownLocation="EzSwim UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e556d177-632f-403a-a453-6e2cc4a703fe"
+                  name="Ausbildungsleitung / Adminstrator"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="62002d7b-57e8-4da3-88d3-acf5f9ff0b0f"
+                  name="Materialdaten pflegen"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
         </targetEnds>
       </actor>
     </packageHasNamedElement>
@@ -757,6 +933,16 @@
         name="Trainer"
         isAbstract="false"
         isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="d62c0ffd-2494-4499-9dab-d6066c8207fe"
+            isSubstitutable="false">
+            <actorMoniker
+              Id="5e620bb4-9b19-4238-badf-dd555d6bcbbe"
+              LastKnownName="Benutzer"
+              LastKnownLocation="EzSwim UML.uml" />
+          </generalization>
+        </generalsInternal>
         <targetEnds>
           <association
             Id="b8d13a0d-c0fd-4703-8cce-bc31fd096c2d"
@@ -806,7 +992,7 @@
             isAbstract="false">
             <useCaseMoniker
               Id="12791c66-9f39-4fe6-b943-54d8997143f3"
-              LastKnownName="Trainingseinheiten erstellen"
+              LastKnownName="Trainingseinheiten pflegen"
               LastKnownLocation="EzSwim UML.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -826,45 +1012,6 @@
                 <memberEnd
                   Id="a785bfbf-93ba-4183-ae7b-947fa0b75480"
                   name="Snippets verwalten"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false" />
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-          </association>
-          <association
-            Id="67188b83-82a0-4ee7-a464-c6636405b237"
-            isDerived="false"
-            sourceEndRoleName="Administrator"
-            targetEndRoleName="Artikel verwalten"
-            isLeaf="false"
-            isAbstract="false">
-            <useCaseMoniker
-              Id="fc0ea4f8-677c-4e84-9337-9148caa93aba"
-              LastKnownName="Trainingseinheiten starten/stoppen"
-              LastKnownLocation="EzSwim UML.uml" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="cd823c75-a550-46d7-8cc0-97e450f87d99"
-                  name="Administrator"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false"
-                  isNavigableOwned="false" />
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="2d3d7b65-ab16-4d76-bea6-6d4c16415f45"
-                  name="Artikel verwalten"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
@@ -953,6 +1100,84 @@
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
           </association>
+          <association
+            Id="6979690d-ad4a-4811-97e9-e59568f725d5"
+            isDerived="false"
+            sourceEndRoleName="Trainer"
+            targetEndRoleName="Unterrichtsstunden Termine swappen"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="4d95c1bb-b5bb-42ed-8381-004f895b1eb7"
+              LastKnownName="Unterrichtsstunden Termine swappen"
+              LastKnownLocation="EzSwim UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cb932844-c8ca-45bd-bc9e-dca04bf36960"
+                  name="Trainer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cebb91b1-b271-4fc4-a41a-8923030df699"
+                  name="Unterrichtsstunden Termine swappen"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="baba262a-4254-4a8a-94de-32ffb62f4488"
+            isDerived="false"
+            sourceEndRoleName="Trainer"
+            targetEndRoleName="Gruppen/Riegen einsehen"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c1c5782c-601b-4521-9eee-d476c0c97992"
+              LastKnownName="Gruppen/Riegen einsehen"
+              LastKnownLocation="EzSwim UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="87a6ef30-1465-41df-a51b-7b3e670f62e1"
+                  name="Trainer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="15166b62-2829-46b2-acd3-e720d4807ce9"
+                  name="Gruppen/Riegen einsehen"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
         </targetEnds>
       </actor>
     </packageHasNamedElement>
@@ -1002,7 +1227,7 @@
     <packageHasNamedElement>
       <useCase
         Id="12791c66-9f39-4fe6-b943-54d8997143f3"
-        name="Trainingseinheiten erstellen"
+        name="Trainingseinheiten pflegen"
         isAbstract="false"
         isLeaf="false">
         <subjects>
@@ -2543,6 +2768,238 @@
             LastKnownLocation="EzSwim UML.uml" />
         </subjects>
       </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="ffacab79-608a-4d1e-9361-a23745ac7c5c"
+        name="Material für Unterrichtsstunde buchen"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="9f05ebcb-7960-43ae-87ec-58f7f53de7c0">
+            <useCaseMoniker
+              Id="c771f470-ca7a-4a1a-993c-d455a82eed06"
+              LastKnownName="Unterrichtsstungen planen"
+              LastKnownLocation="EzSwim UML.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="777f11a7-7029-44b7-aa28-873d78785a6e"
+            LastKnownName="EzSwim Plattform"
+            LastKnownLocation="EzSwim UML.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="836b2871-f7b2-4e8d-8e06-d9971a24c3e5"
+        name="Orte pflegen"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="777f11a7-7029-44b7-aa28-873d78785a6e"
+            LastKnownName="EzSwim Plattform"
+            LastKnownLocation="EzSwim UML.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2c145274-0c9d-4dd1-b1a8-d16549ad31cb"
+        name="Qualifikationen pflegen"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="eafcbf83-8986-46b6-b229-9707496dd130">
+            <useCaseMoniker
+              Id="1d8d2d01-89a4-4048-a574-d30320d3d0c9"
+              LastKnownName="Benutzerdaten pflegen"
+              LastKnownLocation="EzSwim UML.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="777f11a7-7029-44b7-aa28-873d78785a6e"
+            LastKnownName="EzSwim Plattform"
+            LastKnownLocation="EzSwim UML.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="4d95c1bb-b5bb-42ed-8381-004f895b1eb7"
+        name="Unterrichtsstunden Termine swappen"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="777f11a7-7029-44b7-aa28-873d78785a6e"
+            LastKnownName="EzSwim Plattform"
+            LastKnownLocation="EzSwim UML.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="6479e06e-1a5a-46e5-b6a6-23e406907c4f"
+        name="Unterrichtsstunden ausdrucken"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="5c533589-b235-48cb-8ad1-f8cafb67b027">
+            <useCaseMoniker
+              Id="c9e57938-596a-4dc6-929a-f04f1e28d0a9"
+              LastKnownName="Unterrichtsstunden einsehen"
+              LastKnownLocation="EzSwim UML.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="777f11a7-7029-44b7-aa28-873d78785a6e"
+            LastKnownName="EzSwim Plattform"
+            LastKnownLocation="EzSwim UML.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="05898ecc-7b2c-4c48-82da-7364fd49e663"
+        name="UseCase2"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c1c5782c-601b-4521-9eee-d476c0c97992"
+        name="Gruppen/Riegen einsehen"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="777f11a7-7029-44b7-aa28-873d78785a6e"
+            LastKnownName="EzSwim Plattform"
+            LastKnownLocation="EzSwim UML.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="4b37f681-9e50-45d2-b829-3c63d3fa84a4"
+        name="Gruppen/Riegen ausdrucken "
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="f4ba3b9b-25e5-4e4c-be52-08ceb8951702">
+            <useCaseMoniker
+              Id="c1c5782c-601b-4521-9eee-d476c0c97992"
+              LastKnownName="Gruppen/Riegen einsehen"
+              LastKnownLocation="EzSwim UML.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="777f11a7-7029-44b7-aa28-873d78785a6e"
+            LastKnownName="EzSwim Plattform"
+            LastKnownLocation="EzSwim UML.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="57dcf274-ad99-43de-85bd-732c88f52cd0"
+        name="Materialdaten pflegen"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="777f11a7-7029-44b7-aa28-873d78785a6e"
+            LastKnownName="EzSwim Plattform"
+            LastKnownLocation="EzSwim UML.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="bbaa9eae-22a3-4574-b132-e84731ad5aa7"
+        name="Bevorzugte Zeitslots pflegen"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="777f11a7-7029-44b7-aa28-873d78785a6e"
+            LastKnownName="EzSwim Plattform"
+            LastKnownLocation="EzSwim UML.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="5e620bb4-9b19-4238-badf-dd555d6bcbbe"
+        name="Benutzer"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="b14e0559-ce52-42a2-a658-2152e9646647"
+            isDerived="false"
+            sourceEndRoleName="Benutzer"
+            targetEndRoleName="Bevorzugte Zeitslots pflegen"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="bbaa9eae-22a3-4574-b132-e84731ad5aa7"
+              LastKnownName="Bevorzugte Zeitslots pflegen"
+              LastKnownLocation="EzSwim UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a6715aa1-7163-48d2-afc7-ebf1cd05cea9"
+                  name="Benutzer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3ceac8d1-c686-4a3e-a677-ab6773631cc9"
+                  name="Bevorzugte Zeitslots pflegen"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2364ee71-045d-4af7-8bb1-7c4aa960c0fc"
+        name="UseCase3"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="8815118a-3255-4c24-99ff-8a6748f2d044"
+        name="Trainingseinheinten von Assistenten kontrollieren"
+        isAbstract="false"
+        isLeaf="false" />
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType
