@@ -10,12 +10,6 @@
     <useCaseModelRootHasTypes>
       <actor Id="4e9301b2-b130-4fbd-8ce2-3fd8d6b3566c" name="Assistent" isAbstract="false" isLeaf="false">
         <elementDefinition Id="d41b1336-d332-4dc1-a59b-d5ae43be5a09" />
-        <generalsInternal>
-          <generalization Id="a9cce925-d8f9-4512-8aaf-df7c109121d4" isSubstitutable="false">
-            <actorMoniker Id="d788a9b8-df91-4832-ae64-23a5306e781e" LastKnownName="Benutzer" />
-            <elementDefinition Id="cac7b322-e85c-456d-9a8c-982185e9f967" />
-          </generalization>
-        </generalsInternal>
         <targetEnds>
           <association Id="4ea5cd92-55bb-457a-bab0-0e1c6440c677" isDerived="false" sourceEndRoleName="Assistent" targetEndRoleName="Unterrichtsstunden einsehen" isLeaf="false" isAbstract="false">
             <useCaseMoniker Id="b4c91c35-70e7-431f-b966-761892fba948" LastKnownName="Unterrichtsstunden einsehen" />
@@ -49,50 +43,12 @@
             </relationshipOwnedElementsInternal>
             <elementDefinition Id="f113b1fd-7004-4e5f-aca4-e0c4e4e28267" />
           </association>
-          <association Id="bd64d399-fd07-45b3-b339-d2bc6b986e24" isDerived="false" sourceEndRoleName="Assistent" targetEndRoleName="Gruppen/Riegen einsehen" isLeaf="false" isAbstract="false">
-            <useCaseMoniker Id="04fc7994-c67a-49f9-ab89-4f129fc076e1" LastKnownName="Gruppen/Riegen einsehen" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd Id="d15a6c16-0aab-4f40-84e4-20a05b14f239" name="Assistent" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
-                  <elementDefinition Id="3b45dc45-2258-41c4-8e5a-c0927f283bcb" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd Id="451e0b08-2fef-46ea-848b-46708e17c28f" name="Gruppen/Riegen einsehen" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-                  <elementDefinition Id="c2b6a764-de18-402e-b07d-dc814e047252" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-            <elementDefinition Id="a9efbf37-38d0-45c2-85e4-20404db0096f" />
-          </association>
-          <association Id="189bed58-d5da-4b16-9145-09ff0e6047ad" isDerived="false" sourceEndRoleName="Assistent" targetEndRoleName="Trainingseinheiten erstellen" isLeaf="false" isAbstract="false">
-            <useCaseMoniker Id="cb2159fd-2af9-421e-b74a-c1761890a0fb" LastKnownName="Trainingseinheiten pflegen" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd Id="9104b0cb-3ba5-46a3-bb28-3250350a6fcd" name="Assistent" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
-                  <elementDefinition Id="d1f830ab-c302-4815-aced-999f25f05d75" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd Id="5acab194-2fd2-4cf4-bbdc-83d65fb3692b" name="Trainingseinheiten erstellen" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-                  <elementDefinition Id="f6744dd4-9477-4f70-bd26-7bf84bb827ca" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-            <elementDefinition Id="21562b8b-b826-448e-8e2d-2f4435db5126" />
-          </association>
         </targetEnds>
       </actor>
     </useCaseModelRootHasTypes>
     <useCaseModelRootHasTypes>
       <actor Id="7fc42dc0-35e8-4d84-8e7a-b409d2bda397" name="Ausbildungsleitung / Adminstrator" isAbstract="false" isLeaf="false">
         <elementDefinition Id="5ea67aff-c469-4f96-bc30-fdecc78e27ba" />
-        <generalsInternal>
-          <generalization Id="75f17865-e877-4087-9eb7-6808c807a782" isSubstitutable="false">
-            <actorMoniker Id="d788a9b8-df91-4832-ae64-23a5306e781e" LastKnownName="Benutzer" />
-            <elementDefinition Id="1e5cb15e-d3e0-4242-b8e7-65310bf22041" />
-          </generalization>
-        </generalsInternal>
         <targetEnds>
           <association Id="6183f2cc-fe68-4d9b-84ac-526de476d482" isDerived="false" sourceEndRoleName="Ausbildungsleitung / Adminstrator" targetEndRoleName="Abzeichen  einpflegen" isLeaf="false" isAbstract="false">
             <useCaseMoniker Id="cc361e77-5398-456a-bb5a-430a277560c3" LastKnownName="Abzeichen  einpflegen" />
@@ -158,50 +114,12 @@
             </relationshipOwnedElementsInternal>
             <elementDefinition Id="5934fba8-857b-444a-becf-074b09e84278" />
           </association>
-          <association Id="e03de783-05f5-4376-aa51-233f908c02f8" isDerived="false" sourceEndRoleName="Ausbildungsleitung / Adminstrator" targetEndRoleName="Orte pflegen" isLeaf="false" isAbstract="false">
-            <useCaseMoniker Id="8c55c6a3-b5aa-4450-834f-6509d2bb332e" LastKnownName="Orte pflegen" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd Id="3cb87ee3-dbe7-4dfd-9b36-ee6762b753ed" name="Ausbildungsleitung / Adminstrator" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
-                  <elementDefinition Id="671b2ebf-9968-48d1-b150-1c8daf2d485a" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd Id="476f8e22-956d-44be-9f69-7d0aed2ac0bb" name="Orte pflegen" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-                  <elementDefinition Id="2eb6580c-c89d-445e-856c-2489de579a59" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-            <elementDefinition Id="773029fa-14c2-447a-a280-a69398682883" />
-          </association>
-          <association Id="1f151596-049d-4c4b-a68f-5f384e5a8058" isDerived="false" sourceEndRoleName="Ausbildungsleitung / Adminstrator" targetEndRoleName="Materialdaten pflegen" isLeaf="false" isAbstract="false">
-            <useCaseMoniker Id="2123e038-8027-46c8-a357-41e5439b9a25" LastKnownName="Materialdaten pflegen" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd Id="56e749d0-d8bd-4530-ade1-9b001d93f3c5" name="Ausbildungsleitung / Adminstrator" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
-                  <elementDefinition Id="e556d177-632f-403a-a453-6e2cc4a703fe" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd Id="a5806270-88d6-4dd6-83cf-1edcd348a94e" name="Materialdaten pflegen" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-                  <elementDefinition Id="62002d7b-57e8-4da3-88d3-acf5f9ff0b0f" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-            <elementDefinition Id="5724f625-82c2-4806-95e8-5b7de05de609" />
-          </association>
         </targetEnds>
       </actor>
     </useCaseModelRootHasTypes>
     <useCaseModelRootHasTypes>
       <actor Id="31885be7-21eb-49b3-85e9-54b1acdfe6be" name="Trainer" isAbstract="false" isLeaf="false">
         <elementDefinition Id="5aaacf8c-3259-4379-9bbb-44c2a34f5315" />
-        <generalsInternal>
-          <generalization Id="55f697ec-22df-4a48-a50e-b9bb0b67f7e4" isSubstitutable="false">
-            <actorMoniker Id="d788a9b8-df91-4832-ae64-23a5306e781e" LastKnownName="Benutzer" />
-            <elementDefinition Id="d62c0ffd-2494-4499-9dab-d6066c8207fe" />
-          </generalization>
-        </generalsInternal>
         <targetEnds>
           <association Id="f99721e8-f204-4155-86ff-cb50420b4e21" isDerived="false" sourceEndRoleName="Administrator" targetEndRoleName="Benutzer verwalten" isLeaf="false" isAbstract="false">
             <useCaseMoniker Id="91fffcc2-095a-4feb-9929-9d8158995c42" LastKnownName="Unterrichtsstungen planen" />
@@ -220,7 +138,7 @@
             <elementDefinition Id="b8d13a0d-c0fd-4703-8cce-bc31fd096c2d" />
           </association>
           <association Id="17b39aab-4f93-4b02-9567-8c3175dc4ec7" isDerived="false" sourceEndRoleName="Administrator" targetEndRoleName="Snippets verwalten" isLeaf="false" isAbstract="false">
-            <useCaseMoniker Id="cb2159fd-2af9-421e-b74a-c1761890a0fb" LastKnownName="Trainingseinheiten pflegen" />
+            <useCaseMoniker Id="cb2159fd-2af9-421e-b74a-c1761890a0fb" LastKnownName="Trainingseinheiten erstellen" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd Id="2e199b65-433b-44de-b796-33d51257bc70" name="Administrator" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
@@ -234,6 +152,22 @@
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
             <elementDefinition Id="9a52f31f-4f22-43b8-a003-962293ec6e01" />
+          </association>
+          <association Id="930b3d98-31d9-4b64-8dd2-7625444edbd5" isDerived="false" sourceEndRoleName="Administrator" targetEndRoleName="Artikel verwalten" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="098319f8-d2ba-4778-8ba9-75748d8cf113" LastKnownName="Trainingseinheiten starten/stoppen" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d839d6fe-0ea0-4147-870c-8c0574587019" name="Administrator" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="cd823c75-a550-46d7-8cc0-97e450f87d99" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1312c435-fba5-4e69-be62-896299d79bc7" name="Artikel verwalten" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="2d3d7b65-ab16-4d76-bea6-6d4c16415f45" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="67188b83-82a0-4ee7-a464-c6636405b237" />
           </association>
           <association Id="528f5afa-5e9b-4ede-b302-64aa2dcd666d" isDerived="false" sourceEndRoleName="Trainer" targetEndRoleName="Abzeichen abnehmen" isLeaf="false" isAbstract="false">
             <useCaseMoniker Id="9b350e1d-3adf-40b8-968c-f7a4e359a8b5" LastKnownName="Abzeichen abnehmen" />
@@ -267,38 +201,6 @@
             </relationshipOwnedElementsInternal>
             <elementDefinition Id="a9c9ea13-c7e3-46a3-8adf-e7f1fb1472a6" />
           </association>
-          <association Id="4c739422-5593-4aff-8927-1f517593abc2" isDerived="false" sourceEndRoleName="Trainer" targetEndRoleName="Unterrichtsstunden Termine swappen" isLeaf="false" isAbstract="false">
-            <useCaseMoniker Id="5e23b656-7c16-40c5-b4d8-532dcbb964c9" LastKnownName="Unterrichtsstunden Termine swappen" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd Id="c8cab30a-fa49-4578-bbbc-b7808ef88843" name="Trainer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
-                  <elementDefinition Id="cb932844-c8ca-45bd-bc9e-dca04bf36960" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd Id="da66c4be-3a0d-4b4b-bff1-de146afca95e" name="Unterrichtsstunden Termine swappen" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-                  <elementDefinition Id="cebb91b1-b271-4fc4-a41a-8923030df699" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-            <elementDefinition Id="6979690d-ad4a-4811-97e9-e59568f725d5" />
-          </association>
-          <association Id="858df9b6-1730-4cb7-a5ab-fc73feacd878" isDerived="false" sourceEndRoleName="Trainer" targetEndRoleName="Gruppen/Riegen einsehen" isLeaf="false" isAbstract="false">
-            <useCaseMoniker Id="04fc7994-c67a-49f9-ab89-4f129fc076e1" LastKnownName="Gruppen/Riegen einsehen" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd Id="2ea090ca-19ef-4453-9ae6-380b1477efea" name="Trainer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
-                  <elementDefinition Id="87a6ef30-1465-41df-a51b-7b3e670f62e1" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd Id="16d003e9-0b58-4919-a1b7-518521ec6366" name="Gruppen/Riegen einsehen" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-                  <elementDefinition Id="15166b62-2829-46b2-acd3-e720d4807ce9" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-            <elementDefinition Id="baba262a-4254-4a8a-94de-32ffb62f4488" />
-          </association>
         </targetEnds>
       </actor>
     </useCaseModelRootHasTypes>
@@ -324,7 +226,7 @@
       </useCase>
     </packageHasNamedElement>
     <packageHasNamedElement>
-      <useCase Id="cb2159fd-2af9-421e-b74a-c1761890a0fb" name="Trainingseinheiten pflegen" isAbstract="false" isLeaf="false">
+      <useCase Id="cb2159fd-2af9-421e-b74a-c1761890a0fb" name="Trainingseinheiten erstellen" isAbstract="false" isLeaf="false">
         <elementDefinition Id="12791c66-9f39-4fe6-b943-54d8997143f3" />
         <subjects>
           <subsystemMoniker Id="50bddb97-12b1-4eaa-bbe1-8fc94e50c11c" LastKnownName="EzSwim Plattform" />
@@ -413,125 +315,6 @@
         </subjects>
       </useCase>
     </packageHasNamedElement>
-    <packageHasNamedElement>
-      <useCase Id="a3b5d26c-6e57-4570-83ca-67310c822c98" name="Material für Unterrichtsstunde buchen" isAbstract="false" isLeaf="false">
-        <elementDefinition Id="ffacab79-608a-4d1e-9361-a23745ac7c5c" />
-        <extendedCases>
-          <extend Id="fa04e010-b752-4777-9b6d-75041299c016">
-            <useCaseMoniker Id="91fffcc2-095a-4feb-9929-9d8158995c42" LastKnownName="Unterrichtsstungen planen" />
-            <elementDefinition Id="9f05ebcb-7960-43ae-87ec-58f7f53de7c0" />
-          </extend>
-        </extendedCases>
-        <subjects>
-          <subsystemMoniker Id="50bddb97-12b1-4eaa-bbe1-8fc94e50c11c" LastKnownName="EzSwim Plattform" />
-        </subjects>
-      </useCase>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <useCase Id="8c55c6a3-b5aa-4450-834f-6509d2bb332e" name="Orte pflegen" isAbstract="false" isLeaf="false">
-        <elementDefinition Id="836b2871-f7b2-4e8d-8e06-d9971a24c3e5" />
-        <subjects>
-          <subsystemMoniker Id="50bddb97-12b1-4eaa-bbe1-8fc94e50c11c" LastKnownName="EzSwim Plattform" />
-        </subjects>
-      </useCase>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <useCase Id="190e7e22-5464-4dc2-8e16-abcc141fdd5c" name="Qualifikationen pflegen" isAbstract="false" isLeaf="false">
-        <elementDefinition Id="2c145274-0c9d-4dd1-b1a8-d16549ad31cb" />
-        <extendedCases>
-          <extend Id="d28efd02-45cf-4f18-857b-82ce6a5b488d">
-            <useCaseMoniker Id="911b3c62-f485-4391-aa88-018e6c196a97" LastKnownName="Benutzerdaten pflegen" />
-            <elementDefinition Id="eafcbf83-8986-46b6-b229-9707496dd130" />
-          </extend>
-        </extendedCases>
-        <subjects>
-          <subsystemMoniker Id="50bddb97-12b1-4eaa-bbe1-8fc94e50c11c" LastKnownName="EzSwim Plattform" />
-        </subjects>
-      </useCase>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <useCase Id="5e23b656-7c16-40c5-b4d8-532dcbb964c9" name="Unterrichtsstunden Termine swappen" isAbstract="false" isLeaf="false">
-        <elementDefinition Id="4d95c1bb-b5bb-42ed-8381-004f895b1eb7" />
-        <subjects>
-          <subsystemMoniker Id="50bddb97-12b1-4eaa-bbe1-8fc94e50c11c" LastKnownName="EzSwim Plattform" />
-        </subjects>
-      </useCase>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <useCase Id="4296c5fb-3869-40fe-8a8d-3f2efe69e1e3" name="Unterrichtsstunden ausdrucken" isAbstract="false" isLeaf="false">
-        <elementDefinition Id="6479e06e-1a5a-46e5-b6a6-23e406907c4f" />
-        <extendedCases>
-          <extend Id="ecf3bc79-fe14-442f-8308-88fc8f690ef7">
-            <useCaseMoniker Id="b4c91c35-70e7-431f-b966-761892fba948" LastKnownName="Unterrichtsstunden einsehen" />
-            <elementDefinition Id="5c533589-b235-48cb-8ad1-f8cafb67b027" />
-          </extend>
-        </extendedCases>
-        <subjects>
-          <subsystemMoniker Id="50bddb97-12b1-4eaa-bbe1-8fc94e50c11c" LastKnownName="EzSwim Plattform" />
-        </subjects>
-      </useCase>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <useCase Id="04fc7994-c67a-49f9-ab89-4f129fc076e1" name="Gruppen/Riegen einsehen" isAbstract="false" isLeaf="false">
-        <elementDefinition Id="c1c5782c-601b-4521-9eee-d476c0c97992" />
-        <subjects>
-          <subsystemMoniker Id="50bddb97-12b1-4eaa-bbe1-8fc94e50c11c" LastKnownName="EzSwim Plattform" />
-        </subjects>
-      </useCase>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <useCase Id="a279123b-82da-4630-894b-ecaf4aec2017" name="Gruppen/Riegen ausdrucken " isAbstract="false" isLeaf="false">
-        <elementDefinition Id="4b37f681-9e50-45d2-b829-3c63d3fa84a4" />
-        <extendedCases>
-          <extend Id="4f235227-d73a-4c4c-9e6f-99db51649626">
-            <useCaseMoniker Id="04fc7994-c67a-49f9-ab89-4f129fc076e1" LastKnownName="Gruppen/Riegen einsehen" />
-            <elementDefinition Id="f4ba3b9b-25e5-4e4c-be52-08ceb8951702" />
-          </extend>
-        </extendedCases>
-        <subjects>
-          <subsystemMoniker Id="50bddb97-12b1-4eaa-bbe1-8fc94e50c11c" LastKnownName="EzSwim Plattform" />
-        </subjects>
-      </useCase>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <useCase Id="2123e038-8027-46c8-a357-41e5439b9a25" name="Materialdaten pflegen" isAbstract="false" isLeaf="false">
-        <elementDefinition Id="57dcf274-ad99-43de-85bd-732c88f52cd0" />
-        <subjects>
-          <subsystemMoniker Id="50bddb97-12b1-4eaa-bbe1-8fc94e50c11c" LastKnownName="EzSwim Plattform" />
-        </subjects>
-      </useCase>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <useCase Id="cba2724d-100d-4896-8129-32116f6d816a" name="Bevorzugte Zeitslots pflegen" isAbstract="false" isLeaf="false">
-        <elementDefinition Id="bbaa9eae-22a3-4574-b132-e84731ad5aa7" />
-        <subjects>
-          <subsystemMoniker Id="50bddb97-12b1-4eaa-bbe1-8fc94e50c11c" LastKnownName="EzSwim Plattform" />
-        </subjects>
-      </useCase>
-    </packageHasNamedElement>
-    <useCaseModelRootHasTypes>
-      <actor Id="d788a9b8-df91-4832-ae64-23a5306e781e" name="Benutzer" isAbstract="false" isLeaf="false">
-        <elementDefinition Id="5e620bb4-9b19-4238-badf-dd555d6bcbbe" />
-        <targetEnds>
-          <association Id="042191ad-003b-4a99-9237-b93e056e7c9b" isDerived="false" sourceEndRoleName="Benutzer" targetEndRoleName="Bevorzugte Zeitslots pflegen" isLeaf="false" isAbstract="false">
-            <useCaseMoniker Id="cba2724d-100d-4896-8129-32116f6d816a" LastKnownName="Bevorzugte Zeitslots pflegen" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd Id="2a2819f5-ead0-438a-bf6b-53802d1b6b24" name="Benutzer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
-                  <elementDefinition Id="a6715aa1-7163-48d2-afc7-ebf1cd05cea9" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd Id="ba8996d8-3253-48c1-9fd8-6092a94db34a" name="Bevorzugte Zeitslots pflegen" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-                  <elementDefinition Id="3ceac8d1-c686-4a3e-a677-ab6773631cc9" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-            <elementDefinition Id="b14e0559-ce52-42a2-a658-2152e9646647" />
-          </association>
-        </targetEnds>
-      </actor>
-    </useCaseModelRootHasTypes>
   </packagedElements>
   <package Id="d61f6eae-0bdb-4f56-80af-d077fe108ccb" name="DBS2UML">
     <elementDefinition Id="5dee708f-2c9e-4c42-8709-7b170e02a406" />

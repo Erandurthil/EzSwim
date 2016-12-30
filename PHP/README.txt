@@ -1,0 +1,1 @@
+zum Testen client, webservice und htaccess in root ordner des Webservers koieren

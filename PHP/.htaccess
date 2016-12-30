@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteRule ^\.htaccess$ - [F]
+RewriteRule ^(.*)$ webservice/index.php [L,QSA]
